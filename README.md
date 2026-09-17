@@ -10,11 +10,12 @@ The study follows 180 Labrador Retrievers assessed at 3, 6, 10, and 12 months. E
 - `R/02_mixed_effects_dpt.R` fits the phenotype-specific linear mixed-effects models and generates Table 1.
 - `R/03_individual_slopes.R` performs the supplementary dog-level slope analysis.
 - `R/04_plot_dpt_figures.R` generates the longitudinal trajectory panels for Figures 1 and 2.
-- `python/04_model_comparison.py` evaluates prespecified current-score and developmental-change representations.
-- `python/05_repeated_nested_feature_selection.py` performs repeated nested cross-validation with tuning and feature selection.
-- `python/06_permutation_importance_and_selection_frequency.py` generates held-out permutation-importance and selection-frequency results.
-- `python/07_fixed_topk_models.py` evaluates exploratory reduced-feature models.
-- `python/08_roc_comparison.py` compares selected random forest models with CSS and DCSI.
+- `R/00_model_helpers.R` provides shared data, resampling, tuning, metric, and plotting functions.
+- `R/05_model_comparison.R` evaluates prespecified current-score and developmental-change representations.
+- `R/06_repeated_nested_feature_selection.R` performs repeated nested cross-validation with tuning and feature selection.
+- `R/07_permutation_importance_and_selection_frequency.R` generates held-out permutation-importance and selection-frequency results.
+- `R/08_fixed_topk_models.R` evaluates exploratory reduced-feature models.
+- `R/09_roc_comparison.R` compares selected random forest models with CSS and DCSI.
 - `results/` contains manuscript-ready tables and figures generated in the analysis.
 
 ## Data availability and confidentiality
@@ -37,17 +38,11 @@ The fixed top-k models are exploratory. Their feature rankings were derived from
 
 ## Software requirements
 
-R packages:
+This repository is R-only. Install the required packages with:
 
 ```r
-install.packages(c("readxl", "dplyr", "tidyr", "nlme", "ggplot2", "patchwork"))
-```
-
-Python 3.11 or later:
-
-```bash
-python -m venv .venv
-python -m pip install -r requirements.txt
+install.packages(c("readxl", "dplyr", "tidyr", "nlme", "ggplot2",
+                   "patchwork", "ranger", "pROC"))
 ```
 
 ## Reproducing the analysis
@@ -59,24 +54,24 @@ Rscript R/01_prepare_data.R
 Rscript R/02_mixed_effects_dpt.R
 Rscript R/03_individual_slopes.R
 Rscript R/04_plot_dpt_figures.R
-python python/04_model_comparison.py
-python python/05_repeated_nested_feature_selection.py
+Rscript R/05_model_comparison.R
+Rscript R/06_repeated_nested_feature_selection.R
 ```
 
 Generate importance and selection-frequency results for the 3-6-month and 3-10-month models:
 
 ```bash
-PHENOMICS_END_MONTH=6 python python/06_permutation_importance_and_selection_frequency.py
-PHENOMICS_END_MONTH=10 python python/06_permutation_importance_and_selection_frequency.py
-python python/07_fixed_topk_models.py
-python python/08_roc_comparison.py
+PHENOMICS_END_MONTH=6 Rscript R/07_permutation_importance_and_selection_frequency.R
+PHENOMICS_END_MONTH=10 Rscript R/07_permutation_importance_and_selection_frequency.R
+Rscript R/08_fixed_topk_models.R
+Rscript R/09_roc_comparison.R
 ```
 
 On Windows PowerShell, set an environment variable before running the relevant command, for example:
 
 ```powershell
 $env:PHENOMICS_END_MONTH = "6"
-python python/06_permutation_importance_and_selection_frequency.py
+Rscript R/07_permutation_importance_and_selection_frequency.R
 ```
 
 The nested cross-validation scripts are computationally intensive. Random seeds are fixed in each script for reproducibility, although small differences can occur across operating systems or library versions.

@@ -7,9 +7,7 @@ data/derived/
 # Generated intermediates and local environments
 results/intermediate/
 .cache/
-.venv/
 __pycache__/
-*.py[cod]
 .Rhistory
 .RData
 .Rproj.user/

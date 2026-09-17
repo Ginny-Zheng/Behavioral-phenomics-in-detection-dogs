@@ -1,0 +1,17 @@
+Package: behavioralphenomics
+Type: Project
+Title: Behavioral Phenomics in Detection Dogs
+Version: 1.0.0
+Authors@R: person("Ginny", "Zheng", role = c("aut", "cre"), email = "replace-with-email@example.org")
+Description: Reproducible R analysis workflow for developmental behavioral trajectories and prediction of detection-dog training success.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    dplyr,
+    ggplot2,
+    nlme,
+    patchwork,
+    pROC,
+    ranger,
+    readxl,
+    tidyr
