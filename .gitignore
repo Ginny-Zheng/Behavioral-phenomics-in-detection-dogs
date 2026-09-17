@@ -1,0 +1,19 @@
+# Confidential data
+data/raw/
+data/derived/
+*.xlsx
+*.xls
+
+# Generated intermediates and local environments
+results/intermediate/
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
