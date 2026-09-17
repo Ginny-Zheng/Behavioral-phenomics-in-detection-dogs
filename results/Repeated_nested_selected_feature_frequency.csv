@@ -1,0 +1,133 @@
+model,feature,selected_outer_folds,selection_frequency
+10-month current,Air Scenting at 10 months,38,0.38
+10-month current,Excitability at 10 months,72,0.72
+10-month current,Focus on Toy/Reward at 10 months,50,0.5
+10-month current,Hunt at 10 months,37,0.37
+10-month current,Independence at 10 months,45,0.45
+10-month current,People at 10 months,92,0.92
+10-month current,Physical Possessiveness of Toy at 10 months,40,0.4
+10-month current,Retrieve at 10 months,31,0.31
+10-month current,Surfaces at 10 months,71,0.71
+10-month current,Vehicles/Urban Clutter at 10 months,88,0.88
+10-month current,Work/Effort at 10 months,48,0.48
+3+10 changes,Air Scenting at 10 months,23,0.23
+3+10 changes,Air Scenting change 3-10 months,18,0.18
+3+10 changes,Excitability at 10 months,26,0.26
+3+10 changes,Excitability change 3-10 months,22,0.22
+3+10 changes,Focus on Toy/Reward at 10 months,46,0.46
+3+10 changes,Focus on Toy/Reward change 3-10 months,19,0.19
+3+10 changes,Hunt at 10 months,37,0.37
+3+10 changes,Hunt change 3-10 months,36,0.36
+3+10 changes,Independence at 10 months,22,0.22
+3+10 changes,Independence change 3-10 months,19,0.19
+3+10 changes,People at 10 months,29,0.29
+3+10 changes,People change 3-10 months,25,0.25
+3+10 changes,Physical Possessiveness of Toy at 10 months,57,0.57
+3+10 changes,Physical Possessiveness of Toy change 3-10 months,25,0.25
+3+10 changes,Retrieve at 10 months,29,0.29
+3+10 changes,Retrieve change 3-10 months,39,0.39
+3+10 changes,Surfaces at 10 months,21,0.21
+3+10 changes,Surfaces change 3-10 months,35,0.35
+3+10 changes,Vehicles/Urban Clutter at 10 months,90,0.9
+3+10 changes,Vehicles/Urban Clutter change 3-10 months,45,0.45
+3+10 changes,Work/Effort at 10 months,25,0.25
+3+10 changes,Work/Effort change 3-10 months,31,0.31
+3+6 changes,Air Scenting at 6 months,11,0.11
+3+6 changes,Air Scenting change 3-6 months,2,0.02
+3+6 changes,Excitability at 6 months,10,0.1
+3+6 changes,Excitability change 3-6 months,6,0.06
+3+6 changes,Focus on Toy/Reward at 6 months,12,0.12
+3+6 changes,Focus on Toy/Reward change 3-6 months,11,0.11
+3+6 changes,Hunt at 6 months,6,0.06
+3+6 changes,Hunt change 3-6 months,96,0.96
+3+6 changes,Independence at 6 months,18,0.18
+3+6 changes,Independence change 3-6 months,10,0.1
+3+6 changes,People at 6 months,28,0.28
+3+6 changes,People change 3-6 months,4,0.04
+3+6 changes,Physical Possessiveness of Toy at 6 months,59,0.59
+3+6 changes,Physical Possessiveness of Toy change 3-6 months,32,0.32
+3+6 changes,Retrieve at 6 months,5,0.05
+3+6 changes,Retrieve change 3-6 months,20,0.2
+3+6 changes,Surfaces at 6 months,5,0.05
+3+6 changes,Surfaces change 3-6 months,8,0.08
+3+6 changes,Vehicles/Urban Clutter at 6 months,84,0.84
+3+6 changes,Vehicles/Urban Clutter change 3-6 months,16,0.16
+3+6 changes,Work/Effort at 6 months,3,0.03
+3+6 changes,Work/Effort change 3-6 months,8,0.08
+3+6+10 changes,Air Scenting at 10 months,14,0.14
+3+6+10 changes,Air Scenting change 3-6 months,10,0.1
+3+6+10 changes,Air Scenting change 6-10 months,11,0.11
+3+6+10 changes,Excitability at 10 months,21,0.21
+3+6+10 changes,Excitability change 3-6 months,31,0.31
+3+6+10 changes,Excitability change 6-10 months,12,0.12
+3+6+10 changes,Focus on Toy/Reward at 10 months,32,0.32
+3+6+10 changes,Focus on Toy/Reward change 3-6 months,16,0.16
+3+6+10 changes,Focus on Toy/Reward change 6-10 months,12,0.12
+3+6+10 changes,Hunt at 10 months,24,0.24
+3+6+10 changes,Hunt change 3-6 months,92,0.92
+3+6+10 changes,Hunt change 6-10 months,14,0.14
+3+6+10 changes,Independence at 10 months,49,0.49
+3+6+10 changes,Independence change 3-6 months,15,0.15
+3+6+10 changes,Independence change 6-10 months,25,0.25
+3+6+10 changes,People at 10 months,35,0.35
+3+6+10 changes,People change 3-6 months,11,0.11
+3+6+10 changes,People change 6-10 months,16,0.16
+3+6+10 changes,Physical Possessiveness of Toy at 10 months,22,0.22
+3+6+10 changes,Physical Possessiveness of Toy change 3-6 months,32,0.32
+3+6+10 changes,Physical Possessiveness of Toy change 6-10 months,25,0.25
+3+6+10 changes,Retrieve at 10 months,12,0.12
+3+6+10 changes,Retrieve change 3-6 months,20,0.2
+3+6+10 changes,Retrieve change 6-10 months,21,0.21
+3+6+10 changes,Surfaces at 10 months,21,0.21
+3+6+10 changes,Surfaces change 3-6 months,31,0.31
+3+6+10 changes,Surfaces change 6-10 months,16,0.16
+3+6+10 changes,Vehicles/Urban Clutter at 10 months,55,0.55
+3+6+10 changes,Vehicles/Urban Clutter change 3-6 months,10,0.1
+3+6+10 changes,Vehicles/Urban Clutter change 6-10 months,20,0.2
+3+6+10 changes,Work/Effort at 10 months,12,0.12
+3+6+10 changes,Work/Effort change 3-6 months,12,0.12
+3+6+10 changes,Work/Effort change 6-10 months,14,0.14
+3-month current,Air Scenting at 3 months,60,0.6
+3-month current,Excitability at 3 months,97,0.97
+3-month current,Focus on Toy/Reward at 3 months,74,0.74
+3-month current,Hunt at 3 months,52,0.52
+3-month current,Independence at 3 months,49,0.49
+3-month current,People at 3 months,72,0.72
+3-month current,Physical Possessiveness of Toy at 3 months,63,0.63
+3-month current,Retrieve at 3 months,45,0.45
+3-month current,Surfaces at 3 months,62,0.62
+3-month current,Vehicles/Urban Clutter at 3 months,75,0.75
+3-month current,Work/Effort at 3 months,67,0.67
+6+10 changes,Air Scenting at 10 months,28,0.28
+6+10 changes,Air Scenting change 6-10 months,35,0.35
+6+10 changes,Excitability at 10 months,36,0.36
+6+10 changes,Excitability change 6-10 months,24,0.24
+6+10 changes,Focus on Toy/Reward at 10 months,48,0.48
+6+10 changes,Focus on Toy/Reward change 6-10 months,42,0.42
+6+10 changes,Hunt at 10 months,40,0.4
+6+10 changes,Hunt change 6-10 months,29,0.29
+6+10 changes,Independence at 10 months,31,0.31
+6+10 changes,Independence change 6-10 months,35,0.35
+6+10 changes,People at 10 months,39,0.39
+6+10 changes,People change 6-10 months,28,0.28
+6+10 changes,Physical Possessiveness of Toy at 10 months,67,0.67
+6+10 changes,Physical Possessiveness of Toy change 6-10 months,32,0.32
+6+10 changes,Retrieve at 10 months,44,0.44
+6+10 changes,Retrieve change 6-10 months,62,0.62
+6+10 changes,Surfaces at 10 months,31,0.31
+6+10 changes,Surfaces change 6-10 months,40,0.4
+6+10 changes,Vehicles/Urban Clutter at 10 months,93,0.93
+6+10 changes,Vehicles/Urban Clutter change 6-10 months,54,0.54
+6+10 changes,Work/Effort at 10 months,34,0.34
+6+10 changes,Work/Effort change 6-10 months,33,0.33
+6-month current,Air Scenting at 6 months,59,0.59
+6-month current,Excitability at 6 months,93,0.93
+6-month current,Focus on Toy/Reward at 6 months,41,0.41
+6-month current,Hunt at 6 months,72,0.72
+6-month current,Independence at 6 months,55,0.55
+6-month current,People at 6 months,81,0.81
+6-month current,Physical Possessiveness of Toy at 6 months,61,0.61
+6-month current,Retrieve at 6 months,29,0.29
+6-month current,Surfaces at 6 months,61,0.61
+6-month current,Vehicles/Urban Clutter at 6 months,87,0.87
+6-month current,Work/Effort at 6 months,47,0.47
